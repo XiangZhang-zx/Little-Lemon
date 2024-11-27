@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Little Lemon Restaurant Reservation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a restaurant reservation system for Little Lemon, built with React and TypeScript.
+
+## Book a Table Feature
+
+The "Book a Table" feature allows customers to reserve a table at Little Lemon restaurant. It provides a user-friendly interface where customers can select a date, time, and specify the number of guests. The system ensures that only available times are shown to prevent double bookings.
+
+### Key Features:
+- **Date and Time Selection**: Customers can choose their preferred date and time for the reservation.
+- **Guest Count**: Allows specifying the number of guests, with a limit to ensure comfort and safety.
+- **Real-time Availability**: The system fetches available times from an API to ensure up-to-date information.
+- **Confirmation**: Upon successful reservation, customers receive a confirmation message.
 
 ## Available Scripts
 
